@@ -1,0 +1,247 @@
+.header {
+    line-height: 40px;
+    width: 100%;
+    transition: line-height 0.2s linear, box-shadow 0.2s linear;
+    
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #5c5c5c;
+    
+}
+
+.hold {
+    height: 50px;
+}
+
+.hold2 {
+    height: 18rem;
+}
+  
+  
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    overflow: hidden;
+    padding: 0rem 8rem;
+}
+
+
+ul.nav {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav li {
+    float: left;
+    position: relative;
+}
+ 
+ul.nav li:hover a {
+    color: #a2ddfe;
+}
+  
+ul.nav li a {
+    padding: 10px;
+    color: white;
+    text-decoration: initial;
+    transition: color 0.2s linear;
+}
+
+.nav2 {  
+    float: right;
+}
+
+ul.nav2 {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav2 li {
+    float: left;
+    position: relative;
+}
+ 
+ul.nav2 li:hover a {
+    color: black;
+}
+  
+ul.nav2 li a {
+    padding: 10px;
+    color: #4b95c7;
+    text-decoration: initial;
+    transition: color 0.2s linear;
+}
+
+.logo {
+    position: absolute;
+    size: 1rem;
+    float: left;
+    margin-left: 5px;
+}
+
+.seccion1{
+    padding: 5rem 15rem;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fdfcfd;
+}
+
+.seccion2{
+    padding: 0rem 15rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fdfcfd;
+    height: 15rem;
+}
+
+h1{
+    font-weight: lighter;
+    white-space: initial;
+}
+
+h2{
+    font-weight: lighter;
+    white-space: initial;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #989b9c;
+    font-size: small;
+    line-height: 20px;
+}
+
+.col {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+  
+.col.four {
+    width: 23%;
+    margin: 0 1%;
+}
+  
+   
+.col .icon {
+    height: 150px;
+    
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+} 
+  
+.responsivegroup {
+    display: none;
+}
+
+.final{
+    font-family: 'Helvetica Neue', sans-serif;
+    padding: 5rem 12rem;
+}
+
+.item1{
+    width: 550px;
+    display: table-cell;
+    vertical-align: top;
+    padding: 0rem 4rem;
+}
+
+.item2{
+    
+    display: table-cell;
+    vertical-align: top;
+    border-left-style: outset;
+    padding: 0rem 1rem;
+  
+}
+
+.cajacolor{
+    background: #f7704d; 
+    font-size: 18px;
+    color: white; 
+    padding: 5px;
+    width: 150px; 
+}
+
+.button {
+    background-color: #989b9c;
+    border: none;
+    color: white;
+    padding: 0.5rem 3rem;
+    text-align: center;  
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.newsletter{
+    width: 300px;
+    height: 400px;
+    background-color: #026ba9;
+}
+
+.team{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    margin-top: 1rem;
+}
+
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+.slider {
+	width: 1024px;
+	margin: 2em auto;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+.site-footer
+{
+  background-color:#5c5c5c;
+}
+
+
+
