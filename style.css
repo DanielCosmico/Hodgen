@@ -195,16 +195,27 @@ p {
 }
 
 .newsletter{
-    width: 300px;
+    width: 200px;
     height: 400px;
     background-color: #026ba9;
+    text-align: center;
+    color: white;
+    padding: 0px 50px;
+    
 }
 
 .team{
     width: 300px;
-    height: 300px;
+    height: 220px;
     background-color: grey;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
     margin-top: 1rem;
+}
+
+.newsletter p{
+    color: white;
 }
 
 
@@ -238,10 +249,61 @@ html,body {
 	opacity: 1;
 }
 
-.site-footer
+.footer-container
 {
-  background-color:#5c5c5c;
+    background-color:#5c5c5c;
+    padding: 3rem 15rem;
 }
 
+.footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border-bottom: grey;
+}
 
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    ;
+    padding-right: 1rem;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
 
+}
+
+.footer-heading a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: small;
+}
+
+.footer-1{
+    width: 25rem;
+    margin-right: 4rem;
+}
+
+.footer-container p {
+    color: white;
+    margin-top: 0;
+}
+
+.footer-1 button {
+    background-color: #f7704d;
+    border: none;
+    color: white;
+    text-align: center;  
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.footer h2 {
+    font-size: medium;
+    margin-bottom: 1.5rem;
+}
+
+.footer-2 {
+    margin-right: 2.7rem;
+}
